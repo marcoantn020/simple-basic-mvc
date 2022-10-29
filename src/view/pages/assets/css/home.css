@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #f6f6f9;
+}
+
+
+section.container {
+    height: 100%;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #DEDEE5;
+    width: 350px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.menu-sidebar a {
+    display: block;
+    margin-bottom: 8px;
+    color: #454545;
+    text-decoration: none;
+}
+
+.menu-sidebar a:hover {
+    font-weight: bold;
+}
+
+.main {
+    overflow-y: auto;
+    padding: 25px;
+    width: calc(100% - 350px);
+}
+
+.single-post {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
